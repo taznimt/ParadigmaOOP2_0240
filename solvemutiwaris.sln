@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "multiwaris", "multiwaris\mu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "noPewarisan", "noPewarisan\noPewarisan.vcxproj", "{1B21C8F4-C772-4941-83C2-771825EBC0E1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "noOverriding", "noOverriding\noOverriding.vcxproj", "{BB2BD160-58B0-4D27-A9ED-99BD04797611}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{1B21C8F4-C772-4941-83C2-771825EBC0E1}.Release|x64.Build.0 = Release|x64
 		{1B21C8F4-C772-4941-83C2-771825EBC0E1}.Release|x86.ActiveCfg = Release|Win32
 		{1B21C8F4-C772-4941-83C2-771825EBC0E1}.Release|x86.Build.0 = Release|Win32
+		{BB2BD160-58B0-4D27-A9ED-99BD04797611}.Debug|x64.ActiveCfg = Debug|x64
+		{BB2BD160-58B0-4D27-A9ED-99BD04797611}.Debug|x64.Build.0 = Debug|x64
+		{BB2BD160-58B0-4D27-A9ED-99BD04797611}.Debug|x86.ActiveCfg = Debug|Win32
+		{BB2BD160-58B0-4D27-A9ED-99BD04797611}.Debug|x86.Build.0 = Debug|Win32
+		{BB2BD160-58B0-4D27-A9ED-99BD04797611}.Release|x64.ActiveCfg = Release|x64
+		{BB2BD160-58B0-4D27-A9ED-99BD04797611}.Release|x64.Build.0 = Release|x64
+		{BB2BD160-58B0-4D27-A9ED-99BD04797611}.Release|x86.ActiveCfg = Release|Win32
+		{BB2BD160-58B0-4D27-A9ED-99BD04797611}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
