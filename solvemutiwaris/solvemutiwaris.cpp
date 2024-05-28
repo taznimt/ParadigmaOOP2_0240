@@ -12,7 +12,7 @@ public:
     }
 };
 class pekerja : public orang {
-
+public :
 };
 int main()
 {
