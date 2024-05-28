@@ -20,6 +20,7 @@ public :
     }
 };
 class pelajar : public orang {
+public:
     pelajar(int pUmur) :
         orang(pUmur)
     {
@@ -27,6 +28,8 @@ class pelajar : public orang {
     }
 };
 class budi : public pekerja, public pelajar {
+public:
+
     budi(int pUmur) :
         pekerja(pUmur),
         pelajar(pUmur)
