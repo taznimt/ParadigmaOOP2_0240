@@ -19,6 +19,10 @@ public :
         cout << "pekrja dibuat\n" << endl;
     }
 };
+class pelajar : public orang {
+
+};
+
 int main()
 {
     std::cout << "Hello World!\n";
