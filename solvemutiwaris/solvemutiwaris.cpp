@@ -27,12 +27,17 @@ class pelajar : public orang {
     }
 };
 class budi : public pekerja, public pelajar {
-
+    budi(int pUmur) :
+        pekerja(pUmur),
+        pelajar(pUmur)
+    {
+        cout << "budi dibuat\n" << endl;
+    }
 };
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    
 }
 
 
