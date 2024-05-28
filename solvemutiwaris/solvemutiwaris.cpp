@@ -31,7 +31,7 @@ class budi : public pekerja, public pelajar {
         pekerja(pUmur),
         pelajar(pUmur)
     {
-        cout << "budi dibuat\n" << endl;
+        cout << "Budi dibuat\n" << endl;
     }
 };
 
