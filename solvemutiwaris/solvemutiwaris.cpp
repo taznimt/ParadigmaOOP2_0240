@@ -16,11 +16,15 @@ public :
     pekerja(int pUmur) :
         orang(pUmur)
     {
-        cout << "pekrja dibuat\n" << endl;
+        cout << "pekerja dibuat\n" << endl;
     }
 };
 class pelajar : public orang {
-
+    pelajar(int pUmur) :
+        orang(pUmur)
+    {
+        cout << "pelajar dibuat\n" << endl;
+    }
 };
 
 int main()
