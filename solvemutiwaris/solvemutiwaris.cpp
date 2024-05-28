@@ -11,6 +11,9 @@ public:
         cout << "orang dibuat dengan umur " << umur << "\n" << endl;
     }
 };
+class pekerja : public orang {
+
+};
 int main()
 {
     std::cout << "Hello World!\n";
